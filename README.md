@@ -17,6 +17,22 @@ KEY HIGHLIGHTS
 
 
 
+WHAT QE-NN MODEL ACTUALLY DOES:
+
+Quantile Regression DNN
+Trains three neural networks (5th, 50th, 95th percentiles) to predict price ranges, not just averages.
+Uses attention mechanisms to weight important features automatically.
+
+Innovative Enhancements
+Residual Correction: A second model fixes errors in median predictions (reduced MAE by X% in your tests).
+Difficult-Case Handling: Specialized training for hard-to-predict homes.
+
+Real-World Ready
+Processes raw data → polynomial features → selects top 15 predictors → generates predictions with uncertainty intervals.
+Includes an interactive Google Colab tool for user input.
+This provides actionable risk-aware insights for real-world decision-making.
+
+
 KEY ELEMENTS
 
 Input: Dataset with normalization/log-transform
